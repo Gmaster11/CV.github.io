@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(7, 76, 83);
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(210, 46, 46, 0.1);
+}
+
+.seccion{ 
+    border: 10  px;   
+}
+#objetivos{
+    padding-top: 15px;
+}
+
+header{
+    display: flex;
+    width: 950px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #3baea863;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(210, 46, 46, 0.1);
+    line-height: 1.5;
+}
+
+.objetivos{
+    padding: 20px;
+    width: 0,auto;
+    height: auto;
+    text-align:justify;
+
+}
+
+main{
+    display: flex;
+}
+
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+}
+
+.datos{
+    margin-top: 20px;
+     width: 380px;
+    height: auto;
+    display: flex;
+    background-color:#3baea863;
+    border-radius: 10px;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.educacion{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:justify;
+}
+
+.laboral{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:justify;
+}
+
+h2{
+    color:brown;
+}
+
+img{
+    height: 300px;
+    border-radius: 100%; 
+    margin-top: 22px;
+    padding: 10px;
+    transition-duration: 1000ms;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h4 {color: rgb(58, 30, 100);
+    font-size:large;
+   }
+ul li{
+    color:rgb(15, 17, 16);
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+/*Seccion tipo clase*/
+.info #titulos{
+    font-size: x-large;
+    display: flex;
+    padding-bottom: 5px; 
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.educacion #titulos{
+    font-size: x-large;
+    display: flex;
+    color:rgb(153, 135, 135);
+    padding-bottom: 5px;
+    /*background-color: aqua; */
+    text-align: left;
+    width: 100%;
+}
+
+.laboral #titulos{
+    font-size: x-large;
+    display: flex;
+    color:rgb(153, 135, 135);
+    padding-bottom: 5px;
+    /*background-color: aqua; */
+    text-align: left;
+    width: 100%;
+}
